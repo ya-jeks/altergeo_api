@@ -1,0 +1,26 @@
+{"place": {
+    "id": 100,
+    "title": "Айседора",
+    "type": {
+        "id": 2,
+        "title": "Услуги",
+        "logo": "http://altergeo.ru/pictures/type/2.png"
+    },
+    "lat": 55.727535100017,
+    "lng": 37.66820529999,
+    "image": "http://i4.altergeo.ru/pictures/thumbs/100x100/type/d_2.png",
+    "about": "ателье пошива, ремонта одежды, театральная, танцевальная, вечерняя одежда, кожу и мех не шьют",
+    "country": "Россия",
+    "city": "Москва",
+    "street": "1-я Дубровская, 4а",
+    "url": "http://altergeo.ru/p/100-aysedora",
+    "rating": "0.0",
+    "rating_vote_count": 0,
+    "phones": [
+        {
+            "phone": "74956771083"
+        }
+    ],
+    "distance": 408118,
+    "checkin_count": 10
+}}

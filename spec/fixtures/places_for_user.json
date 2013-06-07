@@ -1,0 +1,78 @@
+{"places": {
+    "0": {
+        "place": {
+            "id": 58089,
+            "title": "Hello",
+            "type": {
+                "id": 4,
+                "title": "Кафе, бары и рестораны",
+                "logo": "http://altergeo.ru/pictures/type/4.png"
+            },
+            "lat": 41.588242999972,
+            "lng": -83.665182999794,
+            "image": "http://i0.altergeo.ru/pictures/thumbs/100x100/type/d_4.png",
+            "about": null,
+            "country": "United States",
+            "city": "Maumee",
+            "street": "S Reynolds Rd,",
+            "url": "http://altergeo.ru/p/58089-hello",
+            "rating": "5.0",
+            "rating_vote_count": 1,
+            "checkin_count": 1
+        }
+    },
+    "1": {
+        "place": {
+            "id": 207144,
+            "title": "Hello-mebel.ru",
+            "type": {
+                "id": 6,
+                "title": "Магазины",
+                "logo": "http://altergeo.ru/pictures/type/6.png"
+            },
+            "lat": 55.823336196314,
+            "lng": 37.584160622212,
+            "image": "http://i0.altergeo.ru/pictures/thumbs/100x100/type/d_6.png",
+            "about": "",
+            "country": "Россия",
+            "city": "Москва",
+            "street": "Милашенкова, 7 к3",
+            "url": "http://altergeo.ru/p/207144-hellomebelru",
+            "rating": "0.0",
+            "rating_vote_count": 0,
+            "phones": [
+                {
+                    "phone": "4957222868"
+                }
+            ],
+            "checkin_count": 5
+        }
+    },
+    "2": {
+        "place": {
+            "id": 572379,
+            "title": "Hello",
+            "type": {
+                "id": 4,
+                "title": "Кафе, бары и рестораны",
+                "logo": "http://altergeo.ru/pictures/type/4.png"
+            },
+            "lat": 37.762619000002,
+            "lng": -122.504111,
+            "image": "http://i0.altergeo.ru/pictures/thumbs/100x100/type/d_4.png",
+            "about": null,
+            "country": "United States",
+            "city": "San Francisco",
+            "street": "1285 44th Ave Apt 4",
+            "url": "http://altergeo.ru/p/572379-hello",
+            "rating": "0.0",
+            "rating_vote_count": 0,
+            "phones": [
+                {
+                    "phone": "14158877465"
+                }
+            ],
+            "checkin_count": 0
+        }
+    }
+}}

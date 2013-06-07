@@ -1,0 +1,63 @@
+{"checkins": {
+    "0": {
+        "checkin": {
+            "id": 2365160,
+            "place": {
+                "id": 46342,
+                "title": "Лидер",
+                "type": {
+                    "id": 6,
+                    "title": "Магазины",
+                    "logo": "http://altergeo.ru/pictures/type/6.png"
+                },
+                "lat": 54.374418000002,
+                "lng": 48.582632999997,
+                "image": "http://i4.altergeo.ru/pictures/thumbs/100x100/47/7271.921375.jpeg",
+                "about": "Мебельный торговый центр “Лидер” - это один из самых крупных трехэтажных специализированных мебельных торговых центров города Ульяновска.",
+                "country": "Россия",
+                "city": "Ульяновск",
+                "street": "Ульяновский проспект, 14",
+                "url": "http://altergeo.ru/p/46342-lider",
+                "rating": "2.8",
+                "rating_vote_count": 4,
+                "distance": 0,
+                "checkin_count": 25
+            },
+            "datetime": 1370419136,
+            "text": null
+        }
+    },
+    "1": {
+        "checkin": {
+            "id": 2365154,
+            "place": {
+                "id": 44562,
+                "title": "ЦУМ",
+                "type": {
+                    "id": 6,
+                    "title": "Магазины",
+                    "logo": "http://altergeo.ru/pictures/type/6.png"
+                },
+                "lat": 54.318500785551,
+                "lng": 48.398133516285,
+                "image": "http://i8.altergeo.ru/pictures/thumbs/100x100/28/A9424.740681.jpeg",
+                "about": "",
+                "country": "Russia",
+                "city": "Ульяновск",
+                "street": "Гочарова 21",
+                "url": "http://altergeo.ru/p/44562-tsum",
+                "rating": "3.4",
+                "rating_vote_count": 9,
+                "phones": [
+                    {
+                        "phone": "78422421010"
+                    }
+                ],
+                "distance": 13478,
+                "checkin_count": 36
+            },
+            "datetime": 1370417865,
+            "text": null
+        }
+    }
+}}
