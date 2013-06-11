@@ -14,6 +14,11 @@ require "altergeo_api/type_collection"
 module AltergeoApi
 
   class << self
+    def enable_will_paginate!
+      require 'altergeo_api/will_paginator'
+      AltergeoApi::ResourceCollection.send(:include, AltergeoApi::WillPaginator)
+    end
+
     def method_missing(method, *args, &block)
       AltergeoApi::Client.send(method, *args, &block)
     end
