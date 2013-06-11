@@ -37,6 +37,7 @@ client.checkin!(:place_id => places.first.id)
 ```paginate``` method not included to ResourceCollection by default.
 Use ```AltergeoApi.enable_will_paginate!``` to add pagination.
 
+```ruby
 places = client.places :query => 'bank'
 places.paginate(:page => params[:page], :per_page => params[:per])
 ```
