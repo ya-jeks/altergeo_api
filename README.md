@@ -33,10 +33,9 @@ client.checkin!(:place_id => places.first.id)
 ```
 
 ### WillPaginate for places collection
-```ruby
-# paginate method not included to ResourceCollection by default.
-require 'altergeo_api/will_paginator'
-AltergeoApi::ResourceCollection.send(:include, AltergeoApi::WillPaginator)
+
+```paginate``` method not included to ResourceCollection by default.
+Use ```AltergeoApi.enable_will_paginate!``` to add pagination.
 
 places = client.places :query => 'bank'
 places.paginate(:page => params[:page], :per_page => params[:per])
