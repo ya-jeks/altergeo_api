@@ -1,6 +1,6 @@
 # AltergeoApi
 
-TODO: Write a gem description
+Ruby client for altergeo openapi/v1
 
 ## Installation
 
@@ -18,8 +18,29 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Not authenticated requests
 
+```ruby
+places = AltergeoApi.places :query => 'bank'
+```
+
+### Authenticated requests
+```ruby
+client = AltergeoApi::Client.new :email => 'some@example.com'
+                                 :password => 'somepassword'
+places = client.places :query => 'bank'
+client.checkin!(:place_id => places.first.id)
+```
+
+### WillPaginate for places collection
+```ruby
+# paginate method not included to ResourceCollection by default.
+require 'altergeo_api/will_paginator'
+AltergeoApi::ResourceCollection.send(:include, AltergeoApi::WillPaginator)
+
+places = client.places :query => 'bank'
+places.paginate(:page => params[:page], :per_page => params[:per])
+```
 ## Contributing
 
 1. Fork it
